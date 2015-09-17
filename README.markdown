@@ -1,4 +1,4 @@
-# The Official raywenderlich.com Java Style Guide
+# The Official aut1.style-guide Java Style Guide
 
 This style guide is different from other you may see, because the focus is
 centered on readability for print and the web. We created this style guide to
@@ -102,7 +102,7 @@ com.raywenderlich.funkywidget
 
 ### Classes & Interfaces
 
-Written in __UpperCamelCase__. For example `RadialSlider`. 
+Written in __UpperCamelCase__. For example `RadialSlider`.
 
 ### Methods
 
@@ -118,29 +118,6 @@ words:
 ```java
 public static final int THE_ANSWER = 42;
 ```
-
-As distasteful as it is, field naming should follow the Android source code
-naming conventions:
-
-- Non-public, non-static field names start with an `m`.
-- Static field names start with an `s`.
-
-For example:
-
-```java
-public class MyClass {
-  public static final int SOME_CONSTANT = 42;
-  public int publicField;
-  private static MyClass sSingleton;
-  int mPackagePrivate;
-  private int mPrivate;
-  protected int mProtected;
-}
-```
-
-> __Note:__ You can set Android Studio to follow this convention. See this SO
-> link for details http://stackoverflow.com/questions/22732722/intellij-android-studio-member-variable-prefix
-
 ### Variables & Parameters
 
 Written in __lowerCamelCase__.
@@ -219,13 +196,13 @@ Indentation is using spaces - never tabs.
 
 #### Blocks
 
-Indentation for blocks uses 2 spaces (not the default 4):
+Indentation for blocks uses 4 spaces:
 
 __BAD:__
 
 ```java
 for (int i = 0; i < 10; i++) {
-    Log.i(TAG, "index=" + i);
+  Log.i(TAG, "index=" + i);
 }
 ```
 
@@ -233,7 +210,7 @@ __GOOD:__
 
 ```java
 for (int i = 0; i < 10; i++) {
-  Log.i(TAG, "index=" + i);
+    Log.i(TAG, "index=" + i);
 }
 ```
 
@@ -262,8 +239,8 @@ Lines should be no longer than 100 characters long.
 
 ### Vertical Spacing
 
-There should be exactly one blank line between methods to aid in visual clarity 
-and organization. Whitespace within methods should separate functionality, but 
+There should be exactly one blank line between methods to aid in visual clarity
+and organization. Whitespace within methods should separate functionality, but
 having too many sections in a method often means you should refactor into
 several methods.
 
@@ -470,17 +447,17 @@ file:
 
     /*
      * Copyright (c) 2015 Razeware LLC
-     * 
+     *
      * Permission is hereby granted, free of charge, to any person obtaining a copy
      * of this software and associated documentation files (the "Software"), to deal
      * in the Software without restriction, including without limitation the rights
      * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
      * copies of the Software, and to permit persons to whom the Software is
      * furnished to do so, subject to the following conditions:
-     * 
+     *
      * The above copyright notice and this permission notice shall be included in
      * all copies or substantial portions of the Software.
-     * 
+     *
      * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
      * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
      * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -516,4 +493,3 @@ raywenderlich.com team members:
 - [Sam Davies](https://github.com/sammyd)
 - [Mic Pringle](https://github.com/micpringle)
 - [Ray Wenderlich](https://github.com/rwenderlich)
-
