@@ -1,4 +1,4 @@
-# The Official aut1.style-guide Java Style Guide
+# The Official auto1.style-guide Java Style Guide
 
 This style guide is different from other you may see, because the focus is
 centered on readability for print and the web. We created this style guide to
