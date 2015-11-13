@@ -73,6 +73,7 @@ From now on, projects you create _should_ follow the correct style guidelines.
   + [Use Context-Specific XML Files](#use-context-specific-xml-files)
   + [XML Attribute Ordering](#xml-attribute-ordering)
 - [Language](#language)
+- [Class Content](#class-content)
 - [Copyright Statement](#copyright-statement)
 - [Smiley Face](#smiley-face)
 - [Credit](#credits)
@@ -439,6 +440,33 @@ __GOOD:__
 ```java
 String color = "red";
 ```
+
+## Class Content
+
+- Max symbol's amount in one row - 100
+- Max raw's amount in one merhod - 40
+- Order of methods: 
+    If class contents android methods (lifecycle methods, listeners) it should be oredered first, 
+    then will be custom methods.
+
+    ```java
+    MainActivity extends Activity implements OnClickListener {
+      @Override
+      public void onCreate() {
+      
+      }
+      
+      @Override
+      public void onDestroy() {
+      
+      }
+      
+      @Override
+      public void onClick(View view) {
+      
+      }
+    }
+    ```
 
 ## Copyright Statement
 
