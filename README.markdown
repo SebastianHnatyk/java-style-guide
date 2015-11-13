@@ -465,6 +465,10 @@ String color = "red";
       public void onClick(View view) {
       
       }
+      
+      private void showMonkey() {
+      
+      }
     }
     ```
 
