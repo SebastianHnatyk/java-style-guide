@@ -485,26 +485,7 @@ File names must contain only lowercase a-z, 0-9, or _.
 
 Drawables for the specific views (ListView, TextView, EditText, ProgressBar, CheckBox etc.) should be named like this views keeping the naming rules, e.g. drawable for CheckBox should be named "checkbox_on_bg.png".
 
-Asset Type	Prefix	Example
-Action bar	ab_	ab_stacked.9.png
-Button	btn_	btn_send_pressed.9.png
-Dialog	dialog_	dialog_top.9.png
-Divider	divider_	divider_horizontal.9.png
-Icon	ic_	ic_star.png
-Menu	menu_	menu_submenu_bg.9.png
-Notification	notification_	notification_bg.9.png
-Tabs	tab_	tab_pressed.9.png
-Sources and useful links: naming conventions taken from the Android SDK
-
-Naming conventions for icon assets
-
-Asset Type	Prefix	Example
-Icons	ic_	ic_star.png
-Launcher icons	ic_launcher	ic_launcher_calendar.png
-Action bar icons	ic_menu	ic_menu_archive.png
-Status bar icons	ic_stat_notify	ic_stat_notify_msg.png
-Tab icons	ic_tab	ic_tab_recent.png
-Dialog icons	ic_dialog	ic_dialog_info.png
+![Default Settings](resources/android_name_conventions.png)
 
 ## Copyright Statement
 
