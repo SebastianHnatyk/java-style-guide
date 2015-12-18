@@ -125,6 +125,7 @@ public static final int THE_ANSWER = 42;
 Written in __lowerCamelCase__.
 
 Single character values to be avoided except for temporary looping variables.
+Don't use m prefix for class members.
 
 ### Misc
 
